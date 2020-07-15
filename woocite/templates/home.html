@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Music App</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="/static/2.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg py-3 navbar-dark bg-dark shadow-sm">
+  <div class="container">
+    <a href="#" class="navbar-brand">
+      <!-- Logo Image -->
+      <img src="/static/logo.jpeg" width="45" alt="" class="d-inline-block align-middle mr-2">
+      <!-- Logo Text -->
+      <span class="text-uppercase font-weight-bold">Digital Grameena Seva</span>
+    </a>
+
+    <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
+  </div>
+</nav>
+<div id="kyc">
+  <div id="kyc1">
+    <span><strong>KYC(Know Your Customer)</strong></span>
+  </div>
+  <div id="kyc2">
+    <form method="POST" action="http://localhost:5000/result">
+      <div id="fname">
+        <label>First Name</label><br>
+        <input type="text" size="30" name="first_name" required>
+      </div>
+      <div id="mname">
+        <label>Middle Name</label><br>
+        <input type="text" size="30" name="middle_name"required>
+      </div>
+      <div id="lname">
+        <label >last Name</label><br>
+        <input type="text" size="30" name="last_name" required>
+      </div>
+      <div id="cname">
+        <label>Company Name</label><br>
+        <input type="text" size="141" name="company_name"required>
+      </div>
+      <div id="rmob">
+        <label>Registered Mobile No</label><br>
+        <input type="text" size="30" name="re_mob" required>
+      </div>
+      <div id="pdet">
+       <div id="Remail">
+        <label>Registered Email id</label><br>
+        <input type="text" size="30" name="re_em"required>
+      </div>
+      <div id="Panc">
+        <label>Date Of Birth(As Per Pan Card)</label><br>
+        <input type="Date" size="30" name="dob_"required>
+      </div>
+      <div id="Cnum">
+        <label>PAN Card Number</label><br>
+        <input type="text" size="30" name="pan_card"required>
+      </div>
+      </div>
+      <div id="Address">
+        <div id="pinc">
+            <label>Pincode</label><br>
+            <input type="text" size="30" name="pin_code" required>
+        </div>
+        <div id="Dist"> 
+            <label>District</label><br>
+            <input type="text" size="30" name="District" required>
+        </div>
+        <div id="Stat">
+          <label>State</label><br>
+          <input type="text" size="30" name="state" required>
+        </div>
+        <div id="Cit">
+          <label>City</label><br>
+          <input type="text" size="30" name="city" required>
+        </div>
+        <div id="Add">
+          <label>Address(As Per Aadhar Back Side)</label><br>
+          <input type="text" size="76" name="address" required>
+        </div>
+      </div>
+      <div id="Note">
+      <div class="alert alert-info">
+            <strong>Note:-</strong> Clearly Self Attested Front Scanned Image Is Required
+      </div>
+      </div>
+      <div id="upload1">
+         <label><strong>Aadhar Card</strong></label><br>
+         <input type="file" id="fi" name="afile"required>
+      </div>
+      <div id="upload2">
+         <label><strong>Pan Card</strong></label><br>
+         <input type="file" id="f2" name="pfile" required>
+      </div>
+        <img src="/static/aadhar-card1.jpg" style="
+    width: 441px;
+    margin-left: 47px;
+    margin-top: 29px;
+      ">
+     <img src="/static/pan.jpeg" style="float: right;margin-right: 302px;margin-top: -189px;/* margin-left: -9px; */">
+      <div id="inst">
+        <strong>Steps to upload</strong>
+        <ul>
+          <li>Download E-aadhar from <a href="https://eaadhaar.uidai.gov.in/">https://eaadhaar.uidai.gov.in/</a></li>
+          <li>Take a print and self attest the document</li>
+          <li>Scan and upload the self attest of E-aadhar here</li>
+        </ul>
+        <strong>Steps to upload</strong>
+        <ul>
+          <li>only JPEG/JPG/PDF format are allowed</li>
+          <li>The Document must be latest and clear</li>
+        </ul>
+      </div>
+      <button type="submit" class="btn btn-primary" style="
+    margin-left: 47px;
+    margin-top: 26px;
+">Update Kyc</button>
+      <div class="alert alert-warning" role="alert" style="
+    margin-left: 48px;
+    margin-top: 41px;
+">
+          <strong>please upload the document in clear and color format.Your Kyc will be approved between 48-72 Hr<br>
+          Request you to please upload the documents properly.On rejection of Kyc 3 Times ID shall be blocked</strong> 
+      </div>
+    </form>
+  </div>
+</div>
+</body>
+</html>

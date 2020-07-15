@@ -1,0 +1,158 @@
+body {
+  background: linear-gradient(70deg, #e6e6e6, #f7f7f7);
+  color: #514B64;
+  min-height: 100vh;
+}
+
+code {
+  background: #fff;
+  padding: 0.2rem;
+  border-radius: 0.2rem;
+  margin: 0 0.3rem;
+}
+#kyc
+{
+	width:100%;
+	height: 1536px;
+	border:1px solid red;
+	background-color:white;
+}
+#kyc1
+{
+	border:1px solid green;
+	background-color:white;
+	margin-top: 31px;
+	height: 40px;
+}
+#kyc1 span
+{
+	position: relative;
+    bottom: -8px;
+    margin-left: 46px;
+}
+#kyc2 
+{
+	width:100%;
+	height:189px;
+	border:1px solid blue;
+	border-bottom: dotted;
+
+}
+#fname
+{
+	margin-left: 43px;
+    margin-top: 12px
+}
+#mname
+{
+	margin-left: 508px;
+    margin-top: -63px;
+}
+#lname
+{
+	float: right;
+	margin-right: 96px;
+    margin-top: -63px;
+}
+#cname
+{
+	margin-top: 38px;
+    margin-left: 43px;
+}
+#rmob
+{
+	margin-top: 40px;
+    margin-left: 44px
+}
+#pdet
+{
+	width:100%;
+	border:1px solid orange;
+	height:129px;
+    margin-top: 22px;
+    border-bottom: dotted;
+    border-top: dotted;
+}
+#Remail
+{
+	margin-left: 43px;
+    margin-top: 27px;
+}
+#Panc
+{
+	margin-left: 545px;
+    margin-top: -65px;
+}
+#Cnum
+{
+	float: right;
+    margin-top: -60px;
+    margin-right: 27px;
+}
+#pinc
+{
+	margin-left: 43px;
+    margin-top: 18px;
+}
+#Dist
+{
+	margin-left: 545px;
+    margin-top: -64px;
+}
+#Stat
+{
+	float: right;
+    margin-right: 28px;
+    margin-top: -64px;
+}
+#Cit
+{
+	margin-left: 44px;
+    margin-top: 24px;
+}
+#Add
+{
+	margin-left: 545px;
+    margin-top: -64px;
+}
+#Note
+{
+	margin-top: 33px;
+    width: 1284px;
+    margin-left: 44px;
+}
+#upload1
+{
+	margin-left: 45px;
+}
+#up1
+{
+	border: 1px solid;
+    width: 404px;
+    height: 40px;
+}
+#fi
+{
+	margin-left: 3px;
+    margin-top: 8px;
+    border: 1px solid;
+    width: 370px;
+}
+#upload2
+{
+	float:right;
+	margin-right: 231px;
+    margin-top: -71px;
+}
+#f2
+{
+	margin-left: 3px;
+    margin-top: 8px;
+    border: 1px solid;
+    width: 370px;
+}
+#inst
+{
+	margin-left: 45px;
+    margin-top: 27px;
+}
